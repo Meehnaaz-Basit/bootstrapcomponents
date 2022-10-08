@@ -1,0 +1,97 @@
+/* 
+accordion normal ---
+
+accordionExample = accex
+headingOne = h_one
+collapseOne = colp_one
+
+headingTwo = h_two
+collapseTwo = colp_two
+
+accordion flush ---
+
+accordionFlushExample = accfluex
+flush-headingOne = fh_one
+flush-collapseOne = fcolp_one
+
+flush-headingTwo = fh_two
+flush-collapseTwo = fcolp_two
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-heading {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(215, 103, 204);
+  color: white;
+  text-transform: uppercase;
+}
+.mycommon-heading {
+  padding-bottom: 40px;
+  color: blueviolet;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mynav-clr {
+  color: white;
+}
+/* accordion */
+.accordion-section {
+  padding: 60px 0;
+  margin: 50px 0;
+  background-color: rgb(246, 222, 237);
+}
+/* alert */
+.alert-section {
+  padding: 60px 0;
+  margin: 50px 0;
+  background-color: peachpuff;
+}
+.alert_custom {
+  color: white;
+  background-color: rgb(171, 199, 218);
+}
+/* badge */
+.badge-section {
+  padding: 60px 0;
+  margin: 50px 0;
+  background-color: rgb(206, 206, 230);
+}
+.badgebutton {
+  text-align: center;
+}
+/* card */
+.mycard-section {
+  padding: 60px 0px;
+  background-color: rgb(209, 248, 194);
+}
+.mycard_title,
+.mycard-pera {
+  color: blueviolet;
+}
+.mycard-button {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+/* .mycard-button:hover {
+  color: blueviolet;
+  background-color: transparent;
+} */
+.my-mid-card {
+  text-align: center;
+}
+/* *** carousel section
+changes---
+carouselExampleSlidesOnly = mycarslide
+
+*/
+.mycarousel-section {
+  padding: 60px 0;
+}
+.mycollaspe-section {
+  padding: 80px 0;
+}
